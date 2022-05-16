@@ -19,10 +19,6 @@ int charToInt(char digit) {
     return digit - 'A' + 10;
   } else if (digit >= 'a' && digit <= 'z') {
     return digit - 'a' + 10;
-  // } elseif(digit == '-'){
-  //   checker = 1;
-  //   printf("Loading ...");
-  //   abort();
   } else{
     printf("Invalid Input\n");
     abort();
