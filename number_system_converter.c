@@ -198,7 +198,6 @@ int continousRun(char * again) {
 }
 
 int main(void) {
-
   // Declaring variables
   char originalAr[n], convertedAr[n], again[n];;
   int originalBase, convertedBase, power, originalPower, convertedPower, againInp;
@@ -276,14 +275,13 @@ int main(void) {
 		    number = floatingPoint(originalAr, originalBase, decimal);
 		    decConverter(number, convertedBase, floatingPointNumber);
 		  }
-		
-			// Repeat the program to check another base system
-		    do {
-					printf("\n------------------------------------\n\n");
-		      printf("Choose (1 = Run Again | 2 = Convert the same number to another base | 3 = Exit): ");
-					scanf("%s", again);
+		  // Repeat Program
+		  do {
+		  	printf("\n------------------------------------\n\n");
+		        printf("Choose (1 = Run Again | 2 = Convert the same number to another base | 3 = Exit): ");
+			scanf("%s", again);
 		      againInp = continousRun(again);
-		    } while (againInp == 3);
+		  } while (againInp == 3);
 	  } while (againInp == 2);
 	} while (againInp == 1);
 }
