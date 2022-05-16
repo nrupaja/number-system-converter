@@ -1,7 +1,7 @@
 /* 
-Title: 			: Number System Converter in C
-Description : This program takes an input from the user in the form of (Number, Current Base, Base it needs be converted in) and displays the output accordingly.
-Date				: 05/15/2022
+Title: 		Number System Converter in C
+Description: 	This program takes an input from the user in the form of (Number, Current Base, Base it needs be converted in) and displays the output accordingly.
+Date: 		05/15/2022
 */
 
 #include <stdio.h>
